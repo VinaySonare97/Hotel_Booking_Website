@@ -19,4 +19,29 @@
 .main{
     width: 100%;
     height: 100%;
+    margin: 0%;
+    background-color: #e0e0e0;
 }
+#header, #footer
+{
+     background-color: rosybrown;
+}
+
+.booking-details {
+    margin: 0 4% 1% 4%;
+  }
+
+  .disc_hotel {
+    margin: 1% 4% 2% 4%;
+  }
+
+  .reddison_hotel img {
+    height: 500px;
+    width: 500px;
+    margin: 2% 4% 0 4%
+  }
+
+  .form
+  {
+    margin: 0 4% 1% 4%;
+  }
