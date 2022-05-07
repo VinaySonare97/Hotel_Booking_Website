@@ -23,6 +23,8 @@
 #header, #footer
 {
      background-color: rosybrown;
+     position: sticky;
+     top: 0;
 }
 
 .search-bar {
@@ -46,6 +48,9 @@
     font-size: 16px;
     border-radius 12px;
     width: 27%;
+    
+  border: 1px solid transparent;
+  border-radius: 5px;
       
     
 }
@@ -62,3 +67,58 @@
     padding: 4%;
     border-radius: 25%;
 }
+
+.contact_us{
+    float: left;
+    padding: 5px;
+}
+
+.contact_us a {
+    text-decoration: none;
+    color: black;
+  }
+
+.copy_right
+{
+    font-size: 10px;
+  margin: 20px 0 0 0;
+}
+
+.footer_us
+{
+    display: block;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px 0 0 0;
+    background-color: rosybrown;
+}
+
+.social_media
+{
+    float: right;
+    padding: 5px;
+  }
+.social_media img
+{
+    height: 20px;
+    width: 22px;
+}
+
+.login_icon {
+    text-decoration: none;
+    float: right;
+    margin: 20px;
+  }
+
+  .view_more {
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  .view_more a {
+    text-decoration: none;
+    color: black;
+  }
+
